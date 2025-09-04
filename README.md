@@ -3,18 +3,18 @@ Actividad M2A3: De &lt;div> a HTML Semántico + Validación W3C
 
 ---
 
-&lt;table>
-    &lt;tr>
-        &lt;td>
-            &lt;p>Página Base con &lt;div&gt;&lt;/p>
-            &lt;img src="html_basico.png" alt="HTML básico con &lt;">
-        &lt;/td>
-        &lt;td>
-            &lt;p>Página Semántica&lt;/p>
-            &lt;img src="html_semantico.png" alt="HTML Semántico">
-        &lt;td>
-    &lt;/tr>
-&lt;/table>
+<table>
+    <tr>
+        <td>
+            <p>Página Base con &lt;div&gt;</p>
+            <img src="html_basico.png" alt="HTML básico con &lt;">
+        </td>
+        <td>
+            <p>Página Semántica</p>
+            <img src="html_semantico.png" alt="HTML Semántico">
+        <td>
+    </tr>
+</table>
 
 Validación con W3C
 ![Validacion de W3C](validacion_w3c.png)
