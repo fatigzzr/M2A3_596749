@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi Sitio</title>
+        <style>
+            body { font-family: system-ui, sans-serif; max-width: 900px;
+            margin: 2rem auto; line-height: 1.5; }
+            header, nav, main, aside, article, footer { padding:
+            12px; border: 1px solid #ddd; margin-bottom: 12px; }
+            nav a { margin-right: 8px; }
+            .label { font-weight: bold; }
+            blockquote { font-style: italic; }
+            time { color: #666; }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Mi Blog Personal</h1>
+
+            <nav aria-label="Navegación Principal">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Artículos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <article>
+                <h2>Novedades de HTML5</h2>
+                <time datetime="2024-12-20">20/12/2024</time>
+                <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+                <blockquote>"a uniquely portable magic" - Stephen King</blockquote>
+                <p>La <span class="label">URL</span>: <a href="https://www.example.com">https://www.example.com</a></p>
+                <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+            </article>
+
+            <aside aria-label="Información adicional">
+                <article>
+                    <h4><span class="label">Acerca de</span></h4>
+                    <p>Desarrollador web y escritor ocasional.</p>
+                </article>
+                <article>
+                    <h4><span class="label">Contacto</span></h4>
+                    <address>
+                        <p>Email: <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></p>
+                    </address>
+                </article>
+            </aside>
+        </main>
+
+        <footer aria-label="Pie de página">
+            <p>© 2025 Mi Sitio</p>
+            <p>Hecho con <em>café</em> y paciencia.</p>
+        </footer>
+    </body>
+</html>
